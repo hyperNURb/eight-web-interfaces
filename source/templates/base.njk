@@ -15,10 +15,12 @@
     {% if pageClass == "has-sidebar" %}
       {% include "layout/sidebar/_sidebar.njk" %}
     {% endif %}
+
+    {% block main -%}
+    {%- endblock %}
   </div>
 
-{% block main -%}
-{%- endblock %}
+
 
 </body>
 </html>
