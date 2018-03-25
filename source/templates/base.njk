@@ -11,7 +11,11 @@
 </head>
 <body>
 
-  <div class="page {{ pageClass }} grid-x"></div>
+  <div class="page {{ pageClass }} grid-x">
+    {% if pageClass == "has-sidebar" %}
+      {% include "layout/sidebar/_sidebar.njk" %}
+    {% endif %}
+  </div>
 
 {% block main -%}
 {%- endblock %}

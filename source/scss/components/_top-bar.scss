@@ -1,0 +1,7 @@
+// in settings: lines 851-860
+
+.top-bar {
+  @include top-bar-container;
+  height: $topbar-height; // 90px
+  border-bottom: 1px solid $separator-color;
+}

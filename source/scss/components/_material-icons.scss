@@ -1,0 +1,15 @@
+.material-icons {
+  color: $light-gray;
+  margin-right: rem-calc(20);
+
+  &.close,
+  button & {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
+
+}
