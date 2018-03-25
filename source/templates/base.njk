@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   {%- set titleDefault = 'Hello World' %}
-  <title>{{title or titleDefault}}</title>
+  <title>{{ title or titleDefault }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="styles/main.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
-{% block base -%}
+  <div class="page {{ pageClass }} grid-x"></div>
+
+{% block main -%}
 {%- endblock %}
 
 </body>

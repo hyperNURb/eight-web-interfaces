@@ -1,3 +1,19 @@
 html {
   font-size: $global-font-size;
+  background: $lightest-gray;
+}
+
+body {
+  background: inherit;
+  padding: 3rem 0;
+}
+
+.page {
+  max-width: $global-width;
+  min-height: rem-calc(960);
+  margin: 0 auto;
+  border: 1px solid $separator-color;
+  position: relative;
+  flex-wrap: nowrap;
+}
 }
