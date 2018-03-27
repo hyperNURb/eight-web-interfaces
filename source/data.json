@@ -15,5 +15,22 @@
   "sidebarMainSection3" : [
     { "icon"  : "person", "name" : "Leila Estrada" },
     { "icon"  : "person", "name" : "Melvin Valdez" }
+  ],
+
+  "sidebarStatisticsSection1" : [
+    { "icon"  : "dashboard" , "title" : "Dashboard"   },
+    { "icon"  : "person"    , "title" : "My Reports"  },
+    { "icon"  : "star"      , "title" : "Favorites"   },
+    { "icon"  : "group"     , "title" : "Users"       },
+    { "icon"  : "settings"  , "title" : "Settings"    }
+  ],
+
+  "sidebarStatisticsSection2" : [
+    { "icon"  : "timeline"        , "title" : "Traffic"     },
+    { "icon"  : "compare_arrows"  , "title" : "Conversions" },
+    { "icon"  : "share"           , "title" : "Sources"     },
+    { "icon"  : "content_copy"    , "title" : "Content"     },
+    { "icon"  : "devices_other"   , "title" : "Technology"  },
+    { "icon"  : "desktop_windows" , "title" : "Monitoring"  }
   ]
 }

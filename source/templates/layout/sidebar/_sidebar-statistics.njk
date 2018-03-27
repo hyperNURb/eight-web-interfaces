@@ -1,0 +1,15 @@
+{% from "macros/macros.njk" import sidebar %}
+
+<div class="sidebar__section">
+  {% for section in sidebarStatisticsSection1 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+</div>
+
+<div class="sidebar__section">
+  <h3>Standard Reports</h3>
+  {% for section in sidebarStatisticsSection2 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+  <button class="hollow button" type="button" name="button">Show More</button>
+</div>

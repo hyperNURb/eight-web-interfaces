@@ -10,6 +10,8 @@
     {% if title == "Main Page" %}
       {% include "layout/sidebar/_sidebar-main.njk" %}
 
+    {% elseif title == "Statistics" %}
+      {% include "layout/sidebar/_sidebar-statistics.njk" %}
     {% endif %}
   </div>
 </aside>
