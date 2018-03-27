@@ -69,5 +69,36 @@
     { "avatar"  : "images/avatar-02.png", "name" : "Floyd Gonzales"  , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       },
     { "avatar"  : "images/avatar-02.png", "name" : "Maud Perez"      , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       },
     { "avatar"  : "images/avatar-03.png", "name" : "Lola Jefferson"  , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       }
+  ],
+
+  "sidebarVideoSection1" : [
+    { "icon"  : "home"          , "title" : "Home Page"     },
+    { "icon"  : "person"        , "title" : "My Channel"    },
+    { "icon"  : "star"          , "title" : "Popular Video" },
+    { "icon"  : "subscriptions" , "title" : "Subscriptions" },
+    { "icon"  : "history"       , "title" : "History Views" },
+    { "icon"  : "watch_later"   , "title" : "Watch Later"   },
+    { "icon"  : "thumb_up"      , "title" : "Liked Videos"  },
+    { "icon"  : "playlist_play" , "title" : "Playlists"     }
+  ],
+
+  "sidebarVideoSection2" : [
+    { "avatar"  : "images/avatar-02.png"  , "name" : "Inez Gibson"   },
+    { "avatar"  : "images/avatar-03.png"  , "name" : "Maude Mann"    },
+    { "avatar"  : "images/avatar-04.png"  , "name" : "Francis Wolfe" },
+    { "avatar"  : "images/avatar-03.png"  , "name" : "Lelia French"  },
+    { "avatar"  : "images/avatar-02.png"  , "name" : "Bessie Casey"  },
+    { "avatar"  : "images/avatar-04.png"  , "name" : "Anne Norton"   }
+  ],
+
+  "sidebarVideoSection3" : [
+    { "icon"  : "music_note"      , "title" : "Music Channels"      },
+    { "icon"  : "child_care"      , "title" : "Baby Channels"       },
+    { "icon"  : "casino"          , "title" : "Games Channels"      },
+    { "icon"  : "fitness_center"  , "title" : "Fitness Channels"    },
+    { "icon"  : "room_service"    , "title" : "Food Channels"       },
+    { "icon"  : "business_center" , "title" : "Business Channels"   },
+    { "icon"  : "motorcycle"      , "title" : "Motorcycle Channels" },
+    { "icon"  : "mood"            , "title" : "Humor Channels"      }
   ]
 }

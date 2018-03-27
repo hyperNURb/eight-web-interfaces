@@ -4,3 +4,10 @@
     <p class="cell auto">{{ two }}</p>
   </div>
 {% endmacro %}
+
+{% macro user(one, two) %}
+  <div class="grid-x align-middle sidebar__item">
+    <img class="user__avatar--s flex-child-shrink" src="{{ one }}" alt="">
+    <p class="user__name">{{ two }}</p>
+  </div>
+{% endmacro %}

@@ -2,6 +2,11 @@
   @include circle(40);
   margin-right: rem-calc(20);
 
+  &--s {
+    @include circle(30)
+    margin-right: $global-margin;
+  }
+
   &--xl {
     @include circle(95);
   }
