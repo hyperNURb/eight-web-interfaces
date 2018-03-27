@@ -1,1 +1,127 @@
-{}
+{
+  "sidebarMainSection1" : [
+    { "icon"  : "dashboard" , "title" : "Dashboard" },
+    { "icon"  : "person"    , "title" : "Deals"     },
+    { "icon"  : "star"      , "title" : "Contacts"  },
+    { "icon"  : "timeline"  , "title" : "Stats"     },
+    { "icon"  : "settings"  , "title" : "Settings"  }
+  ],
+
+  "sidebarMainSection2" : [
+    { "icon"  : "business_center",  "title" : "Bryce Canyon a stunnin..." },
+    { "icon"  : "business_center",  "title" : "What makes a hotel bou..." }
+  ],
+
+  "sidebarMainSection3" : [
+    { "icon"  : "person", "name" : "Leila Estrada" },
+    { "icon"  : "person", "name" : "Melvin Valdez" }
+  ],
+
+  "sidebarStatisticsSection1" : [
+    { "icon"  : "dashboard",
+      "title" : "Dashboard" },
+    { "icon"  : "person",
+      "title" : "My Reports" },
+    { "icon"  : "star",
+      "title" : "Favorites" },
+    { "icon"  : "group",
+      "title" : "Users" },
+    { "icon"  : "settings",
+      "title" : "Settings" }
+  ],
+
+  "sidebarStatisticsSection2" : [
+    { "icon"  : "timeline",
+      "title" : "Traffic" },
+    { "icon"  : "compare_arrows",
+      "title" : "Conversions" },
+    { "icon"  : "share",
+      "title" : "Sources" },
+    { "icon"  : "content_copy",
+      "title" : "Content" },
+    { "icon"  : "devices_other",
+      "title" : "Technology" },
+    { "icon"  : "desktop_windows",
+      "title" : "Monitoring" }
+  ],
+
+  "sidebarMusicSection1" : [
+    { "icon"  : "home",
+      "title" : "Home" },
+    { "icon"  : "star",
+      "title" : "Top Charts" },
+    { "icon"  : "library_music",
+      "title" : "Music Library" },
+    { "icon"  : "new_releases",
+      "title" : "New Releases" }
+  ],
+
+  "sidebarMusicSection2" : [
+    { "icon"  : "queue_music",
+      "title" : "New Releases" },
+    { "icon"  : "queue_music",
+      "title" : "Classical Music" },
+    { "icon"  : "queue_music",
+      "title" : "Highest Ranking" },
+    { "icon"  : "queue_music",
+      "title" : "Last Added" },
+    { "icon"  : "queue_music",
+      "title" : "Workflow" },
+    { "icon"  : "queue_music",
+      "title" : "Thumbs Up" },
+    { "icon"  : "add",
+      "title" : "New Playlist" }
+  ],
+
+  "sidebarMusicSection3" : [
+    { "icon"   : "settings",
+      "title"  : "Settings" },
+    { "icon"   : "help_outline",
+      "title"  : "Help" }
+  ],
+
+  "sidebarMessenger": [
+    { "avatar"  : "images/avatar-01.png", "name"  : "Clyde Chapman"   , "time"  : "Now", "message" : "For many of us, our ..." },
+    { "avatar"  : "images/avatar-02.png", "name"  : "Cecelia Francis" , "time"  : "Mon", "message" : "Secret To Cooking Vegeta..." },
+    { "avatar"  : "images/avatar-03.png",
+      "name"    : "Sally Hammond",
+      "time"    : "Fri",
+      "message" : "Don't Let The Outtakes ..." },
+    { "avatar"  : "images/avatar-02.png",
+      "name"    : "Virginia Brady",
+      "time"    : "Fri",
+      "message" : "Don't Let The Outtakes ..." },
+    { "avatar"  : "images/avatar-02.png",
+      "name"    : "Maud Perez",
+      "time"    : "Mon",
+      "message" : "The Basics Of Buying A Te..." },
+    { "avatar"  : "images/avatar-03.png",
+      "name"    : "Lola Jefferson",
+      "time"    : "Tue",
+      "message" : "The Amazing Hubble" },
+    { "avatar"  : "images/avatar-01.png",
+      "name"    : "Justin Gibbs",
+      "time"    : "Feb 10",
+      "message" : "Influencing The Influencer" },
+    { "avatar"  : "images/avatar-02.png",
+      "name"    : "Anne Stokes",
+      "time"    : "Jun 28",
+      "message" : "Astronomy Binoculars..." },
+    { "avatar"  : "images/avatar-03.png",
+      "name"    : "Nathan Ruiz",
+      "time"    : "Fri",
+      "message" : "Astronomy Binoculars..." },
+    { "avatar"  : "images/avatar-02.png",
+      "name"    : "Floyd Gonzales",
+      "time"    : "Fri",
+      "message" : "Astronomy Binoculars..." },
+    { "avatar"  : "images/avatar-02.png",
+      "name"    : "Maud Perez",
+      "time"    : "Fri",
+      "message" : "Astronomy Binoculars..." },
+    { "avatar"  : "images/avatar-03.png",
+      "name"    : "Lola Jefferson",
+      "time"    : "Fri",
+      "message" : "Astronomy Binoculars..." }
+  ]
+}

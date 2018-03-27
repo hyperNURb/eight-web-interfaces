@@ -1,5 +1,3 @@
-
-
 <aside class="sidebar cell">
   <header class="top-bar align-justify">
     <div class="grid-x align-middle">
@@ -9,6 +7,17 @@
     <i class="material-icons close">close</i>
   </header>
   <div class="sidebar__content">
+    {% if title == "Main Page" %}
+      {% include "layout/sidebar/_sidebar-main.njk" %}
 
+    {% elseif title == "Messenger" %}
+      {% include "layout/sidebar/_sidebar-messenger.njk" %}
+
+    {% elseif title == "Statistics" %}
+      {% include "layout/sidebar/_sidebar-statistics.njk" %}
+
+      {% elseif title == "Music" %}
+        {% include "layout/sidebar/_sidebar-music.njk" %}
+    {% endif %}
   </div>
 </aside>
