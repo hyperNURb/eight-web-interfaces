@@ -32,5 +32,27 @@
     { "icon"  : "content_copy"    , "title" : "Content"     },
     { "icon"  : "devices_other"   , "title" : "Technology"  },
     { "icon"  : "desktop_windows" , "title" : "Monitoring"  }
+  ],
+
+  "sidebarMusicSection1" : [
+    { "icon"  : "home"          , "title" : "Home"          },
+    { "icon"  : "star"          , "title" : "Top Charts"    },
+    { "icon"  : "library_music" , "title" : "Music Library" },
+    { "icon"  : "new_releases"  , "title" : "New Releases"  }
+  ],
+
+  "sidebarMusicSection2" : [
+    { "icon"  : "queue_music",  "title" : "New Releases"    },
+    { "icon"  : "queue_music",  "title" : "Classical Music" },
+    { "icon"  : "queue_music",  "title" : "Highest Ranking" },
+    { "icon"  : "queue_music",  "title" : "Last Added"      },
+    { "icon"  : "queue_music",  "title" : "Workflow"        },
+    { "icon"  : "queue_music",  "title" : "Thumbs Up"       },
+    { "icon"  : "add"        ,  "title" : "New Playlist"    }
+  ],
+
+  "sidebarMusicSection3" : [
+    { "icon"   : "settings"    ,  "title"  : "Settings" },
+    { "icon"   : "help_outline",  "title"  : "Help"     }
   ]
 }
