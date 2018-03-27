@@ -100,5 +100,40 @@
     { "icon"  : "business_center" , "title" : "Business Channels"   },
     { "icon"  : "motorcycle"      , "title" : "Motorcycle Channels" },
     { "icon"  : "mood"            , "title" : "Humor Channels"      }
+  ],
+
+  "sidebarDiscoverSection1" : [
+    { "icon"  : "person"        , "title" : "Randy Rogers"  },
+    { "icon"  : "bookmark"      , "title" : "News Feed"     },
+    { "icon"  : "message"       , "title" : "Messages"      },
+    { "icon"  : "event"         , "title" : "Events"        },
+    { "icon"  : "person"        , "title" : "Friends"       },
+    { "icon"  : "group"         , "title" : "Groups"        },
+    { "icon"  : "photo"         , "title" : "Photos"        },
+    { "icon"  : "music_note"    , "title" : "Music"         },
+    { "icon"  : "subscriptions" , "title" : "Video"         },
+    { "icon"  : "event"         , "title" : "Calendar"      }
+  ],
+
+  "sidebarDiscoverSection2" : [
+    { "icon"  : "group"   , "title" : "Auto Blogs"          },
+    { "icon"  : "group"   , "title" : "Group Pages"         },
+    { "icon"  : "person"  , "title" : "Paul Singleton"      },
+    { "icon"  : "person"  , "title" : "Angel Collier"       },
+    { "icon"  : "person"  , "title" : "Isabella Rodriguez"  },
+    { "icon"  : "group"   , "title" : "Design Group"        },
+    { "icon"  : "group"   , "title" : "Telescope"           }
+  ],
+
+  "sidebarDiscoverSection3" : [
+    { "icon"  : "business_center" , "title"  : "Advertising"  },
+    { "icon"  : "group"           , "title"  : "Public Page"  },
+    { "icon"  : "group"           , "title"  : "Group"        },
+    { "icon"  : "place"           , "title"  : "Event"        }
+  ],
+
+  "sidebarDiscoverSection4" : [
+    { "icon"   : "settings"    ,  "title"  : "Settings" },
+    { "icon"   : "help_outline",  "title"  : "Help"     }
   ]
 }

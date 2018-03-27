@@ -1,0 +1,28 @@
+{% from "macros/macros.njk" import sidebar %}
+
+
+<div class="sidebar__section dashboard">
+  {% for section in sidebarDiscoverSection1 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+</div>
+
+<div class="sidebar__section dashboard">
+  <h3>Favorites</h3>
+  {% for section in sidebarDiscoverSection2 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+</div>
+
+<div class="sidebar__section dashboard">
+  <h3>Create</h3>
+  {% for section in sidebarDiscoverSection3 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+</div>
+
+<div class="sidebar__section dashboard">
+  {% for section in sidebarDiscoverSection4 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+</div>

@@ -20,7 +20,10 @@
       {% include "layout/sidebar/_sidebar-messenger.njk" %}
 
     {% elseif title == "Video" %}
-      {% include "layout/sidebar/_sidebar-video.njk" %}
+      {% include "layout/sidebar/_sidebar-video.njk" %},
+
+    {% elseif title == "Discover" %}
+      {% include "layout/sidebar/_sidebar-discover.njk" %}
     {% endif %}
   </div>
 </aside>
