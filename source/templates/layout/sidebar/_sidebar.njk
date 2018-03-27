@@ -1,5 +1,3 @@
-
-
 <aside class="sidebar cell">
   <header class="top-bar align-justify">
     <div class="grid-x align-middle">
@@ -9,6 +7,9 @@
     <i class="material-icons close">close</i>
   </header>
   <div class="sidebar__content">
+    {% if title == "Main Page" %}
+      {% include "layout/sidebar/_sidebar-main.njk" %}
 
+    {% endif %}
   </div>
 </aside>

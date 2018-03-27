@@ -3,3 +3,25 @@
   max-width: rem-calc(270);
   border-right: 1px solid $separator-color;
 }
+
+.sidebar__section {
+  padding: $global-padding;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $separator-color;
+  }
+}
+
+.sidebar__item:not(:last-child) {
+  margin-bottom: $global-margin / 2;
+}
+.dashboard {
+
+}
+
+.leads {
+  height: 30rem;
+}
+.sidebar__content {
+  width: inherit;
+}

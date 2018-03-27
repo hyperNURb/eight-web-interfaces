@@ -1,1 +1,19 @@
-{}
+{
+  "sidebarMainSection1" : [
+    { "icon"  : "dashboard", "title" : "Dashboard" },
+    { "icon"  : "person"   , "title" : "Deals"     },
+    { "icon"  : "star"     , "title" : "Contacts"  },
+    { "icon"  : "timeline" , "title" : "Stats"     },
+    { "icon"  : "settings" , "title" : "Settings"  }
+  ],
+
+  "sidebarMainSection2" : [
+    { "icon"  : "business_center",  "title" : "Bryce Canyon a stunnin..." },
+    { "icon"  : "business_center",  "title" : "What makes a hotel bou..." }
+  ],
+
+  "sidebarMainSection3" : [
+    { "icon"  : "person", "name" : "Leila Estrada" },
+    { "icon"  : "person", "name" : "Melvin Valdez" }
+  ]
+}

@@ -1,0 +1,24 @@
+{% from "macros/macros.njk" import sidebar %}
+
+
+<div class="sidebar__section dashboard">
+  {% for section in sidebarMainSection1 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+</div>
+
+<div class="sidebar__section">
+  <h3>Last Leads</h3>
+  {% for section in sidebarMainSection2 %}
+    {{ sidebar(section.icon, section.title) }}
+  {% endfor %}
+  <button class="hollow button" type="button" name="button">Show More</button>
+</div>
+
+<div class="sidebar__section">
+  <h3>Last Clients</h3>
+  {% for section in sidebarMainSection3 %}
+    {{ sidebar(section.icon, section.name) }}
+  {% endfor %}
+  <button class="hollow button" type="button" name="button">Show More</button>
+</div>

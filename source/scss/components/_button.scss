@@ -1,0 +1,10 @@
+.button.hollow {
+  border-radius: 50px;
+  color: $body-font-color;
+  border: 1px solid $body-font-color;
+  width: rem-calc(115);
+  height: rem-calc(40);
+  margin: 0;
+  margin-top: $global-margin / 2;
+  font-size: 12px;
+}
