@@ -1,0 +1,8 @@
+.user__avatar {
+  @include circle(40);
+  margin-right: rem-calc(20);
+
+  &--xl {
+    @include circle(95);
+  }
+}

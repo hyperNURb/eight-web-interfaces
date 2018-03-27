@@ -1,0 +1,15 @@
+.contact {
+  width: 100%;
+  height: rem-calc(70);
+  padding: 0 $global-padding;
+  flex-wrap: nowrap;
+
+  &:hover {
+    background: $separator-color;
+  }
+}
+
+.contact__profile {
+  padding: $global-padding;
+
+}

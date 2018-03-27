@@ -1,0 +1,22 @@
+<div class="search grid-x align-middle">
+  <i class="material-icons cell shrink">search</i>
+  <input class="search__field cell shrink" type="search" placeholder="Search contacts">
+</div>
+
+<div class="contacts">
+  {% for messenger in sidebarMessenger %}
+    <div class="contact flex-container align-middle align-justify">
+
+      <img class="user__avatar flex-child-shrink" src="{{ messenger.avatar }}" alt="">
+
+      <div class="flex-child-grow">
+        <div class="flex-container align-justify">
+          <p class="user__name">{{ messenger.name }}</p>
+          <p class="">{{ messenger.time }}</p>
+        </div>
+        <p class="contact__message">{{ messenger.message }}</p>
+      </div>
+
+    </div>
+  {% endfor %}
+</div>

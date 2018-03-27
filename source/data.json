@@ -54,5 +54,20 @@
   "sidebarMusicSection3" : [
     { "icon"   : "settings"    ,  "title"  : "Settings" },
     { "icon"   : "help_outline",  "title"  : "Help"     }
+  ],
+
+  "sidebarMessenger": [
+    { "avatar"  : "images/avatar-03.png", "name" : "Clyde Chapman"   , "time"  : "Now"   , "message" : "For many of us, our ..."       },
+    { "avatar"  : "images/avatar-02.png", "name" : "Cecelia Francis" , "time"  : "Mon"   , "message" : "Secret To Cooking Vegeta..."   },
+    { "avatar"  : "images/avatar-03.png", "name" : "Sally Hammond"   , "time"  : "Fri"   , "message" : "Don't Let The Outtakes ..."    },
+    { "avatar"  : "images/avatar-02.png", "name" : "Virginia Brady"  , "time"  : "Fri"   , "message" : "Don't Let The Outtakes ..."    },
+    { "avatar"  : "images/avatar-04.png", "name" : "Maud Perez"      , "time"  : "Mon"   , "message" : "The Basics Of Buying A Te..."  },
+    { "avatar"  : "images/avatar-03.png", "name" : "Lola Jefferson"  , "time"  : "Tue"   , "message" : "The Amazing Hubble"            },
+    { "avatar"  : "images/avatar-04.png", "name" : "Justin Gibbs"    , "time"  : "Feb 10", "message" : "Influencing The Influencer"    },
+    { "avatar"  : "images/avatar-02.png", "name" : "Anne Stokes"     , "time"  : "Jun 28", "message" : "Astronomy Binoculars..."       },
+    { "avatar"  : "images/avatar-03.png", "name" : "Nathan Ruiz"     , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       },
+    { "avatar"  : "images/avatar-02.png", "name" : "Floyd Gonzales"  , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       },
+    { "avatar"  : "images/avatar-02.png", "name" : "Maud Perez"      , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       },
+    { "avatar"  : "images/avatar-03.png", "name" : "Lola Jefferson"  , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       }
   ]
 }

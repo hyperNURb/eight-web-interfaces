@@ -1,0 +1,5 @@
+@mixin circle($size) {
+  width: rem-calc($size);
+  height: rem-calc($size);
+  border-radius: $global-radius;
+}
