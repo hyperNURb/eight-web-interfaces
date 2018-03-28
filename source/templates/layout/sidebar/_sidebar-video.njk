@@ -10,7 +10,7 @@
 <div class="sidebar__section">
   <h3>Subscriptions</h3>
   {% for section in sidebarVideoSection2 %}
-    {{ user(section.avatar, section.name) }}
+    {{ user("s", section.avatar, section.name) }}
   {% endfor %}
   <button class="hollow button" type="button" name="button">Show More</button>
 </div>

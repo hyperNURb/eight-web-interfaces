@@ -9,13 +9,20 @@
   <div class="grid-x align-middle align-justify sidebar__item">
     <i class="material-icons cell shrink">{{ one }}</i>
     <p class="cell auto">{{ two }}</p>
-    <i class="material-icons cell shrink">keyboard_arrow_down</i>
+    <i class="material-icons cell shrink close">keyboard_arrow_down</i>
   </div>
 {% endmacro %}
 
-{% macro user(one, two) %}
+{# Avatar sizes chart:
+    xs = 20px ,
+     s = 30px ,
+     d = 40px ,
+     l = 50px ,
+    xl = 95px
+#}
+{% macro user(avatarSize, one, two ) %}
   <div class="grid-x align-middle sidebar__item">
-    <img class="user__avatar--s flex-child-shrink" src="{{ one }}" alt="">
+    <img class="user__avatar--{{ avatarSize }} flex-child-shrink" src="{{ one }}" alt="">
     <p class="user__name">{{ two }}</p>
   </div>
 {% endmacro %}
