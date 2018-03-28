@@ -5,6 +5,14 @@
   </div>
 {% endmacro %}
 
+{% macro projects(one, two) %}
+  <div class="grid-x align-middle align-justify sidebar__item">
+    <i class="material-icons cell shrink">{{ one }}</i>
+    <p class="cell auto">{{ two }}</p>
+    <i class="material-icons cell shrink">keyboard_arrow_down</i>
+  </div>
+{% endmacro %}
+
 {% macro user(one, two) %}
   <div class="grid-x align-middle sidebar__item">
     <img class="user__avatar--s flex-child-shrink" src="{{ one }}" alt="">

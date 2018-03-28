@@ -17,6 +17,7 @@
     { "icon"  : "person", "name" : "Melvin Valdez" }
   ],
 
+
   "sidebarStatisticsSection1" : [
     { "icon"  : "dashboard" , "title" : "Dashboard"   },
     { "icon"  : "person"    , "title" : "My Reports"  },
@@ -33,6 +34,7 @@
     { "icon"  : "devices_other"   , "title" : "Technology"  },
     { "icon"  : "desktop_windows" , "title" : "Monitoring"  }
   ],
+
 
   "sidebarMusicSection1" : [
     { "icon"  : "home"          , "title" : "Home"          },
@@ -56,6 +58,7 @@
     { "icon"   : "help_outline",  "title"  : "Help"     }
   ],
 
+
   "sidebarMessenger": [
     { "avatar"  : "images/avatar-03.png", "name" : "Clyde Chapman"   , "time"  : "Now"   , "message" : "For many of us, our ..."       },
     { "avatar"  : "images/avatar-02.png", "name" : "Cecelia Francis" , "time"  : "Mon"   , "message" : "Secret To Cooking Vegeta..."   },
@@ -70,6 +73,7 @@
     { "avatar"  : "images/avatar-02.png", "name" : "Maud Perez"      , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       },
     { "avatar"  : "images/avatar-03.png", "name" : "Lola Jefferson"  , "time"  : "Fri"   , "message" : "Astronomy Binoculars..."       }
   ],
+
 
   "sidebarVideoSection1" : [
     { "icon"  : "home"          , "title" : "Home Page"     },
@@ -101,6 +105,7 @@
     { "icon"  : "motorcycle"      , "title" : "Motorcycle Channels" },
     { "icon"  : "mood"            , "title" : "Humor Channels"      }
   ],
+
 
   "sidebarDiscoverSection1" : [
     { "icon"  : "person"        , "title" : "Randy Rogers"  },
@@ -135,5 +140,33 @@
   "sidebarDiscoverSection4" : [
     { "icon"   : "settings"    ,  "title"  : "Settings" },
     { "icon"   : "help_outline",  "title"  : "Help"     }
+  ],
+
+
+  "sidebarProjectsSection1" : [
+    { "icon"  : "dashboard"       , "title" : "Dashboard"         },
+    { "icon"  : "business_center" , "title" : "Projects"          },
+    { "icon"  : "sort"            , "title" : "Projects Diagram"  },
+    { "icon"  : "group"           , "title" : "Members"           },
+    { "icon"  : "group"           , "title" : "Invoice"           },
+    { "icon"  : "trending_up"     , "title" : "Statistics"        },
+    { "icon"  : "person"          , "title" : "Contacts"          },
+    { "icon"  : "settings"        , "title" : "Settings"          }
+  ],
+
+  "sidebarProjectsSection2" : [
+    { "avatar"  : "images/avatar-02.png"  , "name" : "Branding Company"   },
+    { "avatar"  : "images/avatar-03.png"  , "name" : "Ecommerce Website"  },
+    { "avatar"  : "images/avatar-04.png"  , "name" : "Cosmetic Shop"      },
+    { "avatar"  : "images/avatar-03.png"  , "name" : "Bar Branding"       },
+    { "avatar"  : "images/avatar-02.png"  , "name" : "Auto Ecommerce"     },
+    { "avatar"  : "images/avatar-04.png"  , "name" : "Smartphone Store"   }
+  ],
+
+  "sidebarProjectsSection3" : [
+    { "avatar"  : "images/avatar-04.png"  , "name" : "David Ward"       },
+    { "avatar"  : "images/avatar-03.png"  , "name" : "Agnes Price"      },
+    { "avatar"  : "images/avatar-02.png"  , "name" : "Jacob Harrington" },
+    { "avatar"  : "images/avatar-03.png"  , "name" : "Phillip Craig"    }
   ]
 }
