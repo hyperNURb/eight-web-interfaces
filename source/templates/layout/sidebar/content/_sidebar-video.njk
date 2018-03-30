@@ -1,0 +1,18 @@
+{% from "macros/macros.njk" import user, sidebarDefault %}
+{#  important!
+    arguments order:
+      1. user     (heading, avatarSize, avatarPath, name, button)
+      2. sidebarDefault  (heading, icon, title, button)
+#}
+
+{% for i in range (0, sidebarVideo | length) %}
+  <div class="sidebar__section">
+    {% for item in sidebarVideo[i] %}
+      {% if i == 1 %}
+        {{ user(item.heading, "s", item.avatar, item.name, item.button )}}
+      {% else %}
+        {{ sidebarDefault(item.heading, item.icon, item.title, item.button )}}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endfor %}

@@ -1,61 +1,72 @@
 {
-  "sidebarMainSection1" : [
-    { "icon"  : "dashboard", "title" : "Dashboard" },
-    { "icon"  : "person"   , "title" : "Deals"     },
-    { "icon"  : "star"     , "title" : "Contacts"  },
-    { "icon"  : "timeline" , "title" : "Stats"     },
-    { "icon"  : "settings" , "title" : "Settings"  }
+  "sidebarMain" : [
+    [
+      { "icon"  : "dashboard", "title" : "Dashboard" },
+      { "icon"  : "person"   , "title" : "Deals"     },
+      { "icon"  : "star"     , "title" : "Contacts"  },
+      { "icon"  : "timeline" , "title" : "Stats"     },
+      { "icon"  : "settings" , "title" : "Settings"  }
+    ],
+
+    [
+      { "heading" : "Last Leads"                                              },
+      { "icon"    : "business_center",  "title" : "Bryce Canyon a stunnin..." },
+      { "icon"    : "business_center",  "title" : "What makes a hotel bou..." },
+      { "button"  : "Show more"                                               }
+    ],
+
+    [
+      { "heading" : "Last Clients"                      },
+      { "icon"    : "person", "title" : "Leila Estrada" },
+      { "icon"    : "person", "title" : "Melvin Valdez" }
+    ]
   ],
 
-  "sidebarMainSection2" : [
-    { "icon"  : "business_center",  "title" : "Bryce Canyon a stunnin..." },
-    { "icon"  : "business_center",  "title" : "What makes a hotel bou..." }
-  ],
+  "sidebarStatistics" : [
+    [
+      { "icon"  : "dashboard" , "title" : "Dashboard"   },
+      { "icon"  : "person"    , "title" : "My Reports"  },
+      { "icon"  : "star"      , "title" : "Favorites"   },
+      { "icon"  : "group"     , "title" : "Users"       },
+      { "icon"  : "settings"  , "title" : "Settings"    }
+    ],
 
-  "sidebarMainSection3" : [
-    { "icon"  : "person", "name" : "Leila Estrada" },
-    { "icon"  : "person", "name" : "Melvin Valdez" }
-  ],
-
-
-  "sidebarStatisticsSection1" : [
-    { "icon"  : "dashboard" , "title" : "Dashboard"   },
-    { "icon"  : "person"    , "title" : "My Reports"  },
-    { "icon"  : "star"      , "title" : "Favorites"   },
-    { "icon"  : "group"     , "title" : "Users"       },
-    { "icon"  : "settings"  , "title" : "Settings"    }
-  ],
-
-  "sidebarStatisticsSection2" : [
-    { "icon"  : "timeline"        , "title" : "Traffic"     },
-    { "icon"  : "compare_arrows"  , "title" : "Conversions" },
-    { "icon"  : "share"           , "title" : "Sources"     },
-    { "icon"  : "content_copy"    , "title" : "Content"     },
-    { "icon"  : "devices_other"   , "title" : "Technology"  },
-    { "icon"  : "desktop_windows" , "title" : "Monitoring"  }
+    [
+      { "heading" : "Standard Reports"                          },
+      { "icon"    : "timeline"        , "title" : "Traffic"     },
+      { "icon"    : "compare_arrows"  , "title" : "Conversions" },
+      { "icon"    : "share"           , "title" : "Sources"     },
+      { "icon"    : "content_copy"    , "title" : "Content"     },
+      { "icon"    : "devices_other"   , "title" : "Technology"  },
+      { "icon"    : "desktop_windows" , "title" : "Monitoring"  },
+      { "button"  : "Show more"                                 }
+    ]
   ],
 
 
-  "sidebarMusicSection1" : [
-    { "icon"  : "home"          , "title" : "Home"          },
-    { "icon"  : "star"          , "title" : "Top Charts"    },
-    { "icon"  : "library_music" , "title" : "Music Library" },
-    { "icon"  : "new_releases"  , "title" : "New Releases"  }
-  ],
+  "sidebarMusic" : [
+    [
+      { "icon"  : "home"          , "title" : "Home"          },
+      { "icon"  : "star"          , "title" : "Top Charts"    },
+      { "icon"  : "library_music" , "title" : "Music Library" },
+      { "icon"  : "new_releases"  , "title" : "New Releases"  }
+    ],
 
-  "sidebarMusicSection2" : [
-    { "icon"  : "queue_music",  "title" : "New Releases"    },
-    { "icon"  : "queue_music",  "title" : "Classical Music" },
-    { "icon"  : "queue_music",  "title" : "Highest Ranking" },
-    { "icon"  : "queue_music",  "title" : "Last Added"      },
-    { "icon"  : "queue_music",  "title" : "Workflow"        },
-    { "icon"  : "queue_music",  "title" : "Thumbs Up"       },
-    { "icon"  : "add"        ,  "title" : "New Playlist"    }
-  ],
+    [
+      { "heading" : "Music Playlists"                           },
+      { "icon"    : "queue_music",  "title" : "New Releases"    },
+      { "icon"    : "queue_music",  "title" : "Classical Music" },
+      { "icon"    : "queue_music",  "title" : "Highest Ranking" },
+      { "icon"    : "queue_music",  "title" : "Last Added"      },
+      { "icon"    : "queue_music",  "title" : "Workflow"        },
+      { "icon"    : "queue_music",  "title" : "Thumbs Up"       },
+      { "icon"    : "add"        ,  "title" : "New Playlist"    }
+    ],
 
-  "sidebarMusicSection3" : [
-    { "icon"   : "settings"    ,  "title"  : "Settings" },
-    { "icon"   : "help_outline",  "title"  : "Help"     }
+    [
+      { "icon"   : "settings"    ,  "title"  : "Settings" },
+      { "icon"   : "help_outline",  "title"  : "Help"     }
+    ]
   ],
 
 
@@ -75,98 +86,108 @@
   ],
 
 
-  "sidebarVideoSection1" : [
-    { "icon"  : "home"          , "title" : "Home Page"     },
-    { "icon"  : "person"        , "title" : "My Channel"    },
-    { "icon"  : "star"          , "title" : "Popular Video" },
-    { "icon"  : "subscriptions" , "title" : "Subscriptions" },
-    { "icon"  : "history"       , "title" : "History Views" },
-    { "icon"  : "watch_later"   , "title" : "Watch Later"   },
-    { "icon"  : "thumb_up"      , "title" : "Liked Videos"  },
-    { "icon"  : "playlist_play" , "title" : "Playlists"     }
-  ],
+  "sidebarVideo" : [
+    [
+      { "icon"  : "home"          , "title" : "Home Page"     },
+      { "icon"  : "person"        , "title" : "My Channel"    },
+      { "icon"  : "star"          , "title" : "Popular Video" },
+      { "icon"  : "subscriptions" , "title" : "Subscriptions" },
+      { "icon"  : "history"       , "title" : "History Views" },
+      { "icon"  : "watch_later"   , "title" : "Watch Later"   },
+      { "icon"  : "thumb_up"      , "title" : "Liked Videos"  },
+      { "icon"  : "playlist_play" , "title" : "Playlists"     }
+    ],
 
-  "sidebarVideoSection2" : [
-    { "avatar"  : "images/avatar-02.png"  , "name" : "Inez Gibson"   },
-    { "avatar"  : "images/avatar-03.png"  , "name" : "Maude Mann"    },
-    { "avatar"  : "images/avatar-04.png"  , "name" : "Francis Wolfe" },
-    { "avatar"  : "images/avatar-03.png"  , "name" : "Lelia French"  },
-    { "avatar"  : "images/avatar-02.png"  , "name" : "Bessie Casey"  },
-    { "avatar"  : "images/avatar-04.png"  , "name" : "Anne Norton"   }
-  ],
+    [
+      { "heading" : "Subscriptions"                                     },
+      { "avatar"  : "images/avatar-02.png"  , "name" : "Inez Gibson"    },
+      { "avatar"  : "images/avatar-03.png"  , "name" : "Maude Mann"     },
+      { "avatar"  : "images/avatar-04.png"  , "name" : "Francis Wolfe"  },
+      { "avatar"  : "images/avatar-03.png"  , "name" : "Lelia French"   },
+      { "avatar"  : "images/avatar-02.png"  , "name" : "Bessie Casey"   },
+      { "avatar"  : "images/avatar-04.png"  , "name" : "Anne Norton"    },
+      { "button"  : "Show more"                                         }
+    ],
 
-  "sidebarVideoSection3" : [
-    { "icon"  : "music_note"      , "title" : "Music Channels"      },
-    { "icon"  : "child_care"      , "title" : "Baby Channels"       },
-    { "icon"  : "casino"          , "title" : "Games Channels"      },
-    { "icon"  : "fitness_center"  , "title" : "Fitness Channels"    },
-    { "icon"  : "room_service"    , "title" : "Food Channels"       },
-    { "icon"  : "business_center" , "title" : "Business Channels"   },
-    { "icon"  : "motorcycle"      , "title" : "Motorcycle Channels" },
-    { "icon"  : "mood"            , "title" : "Humor Channels"      }
-  ],
-
-
-  "sidebarDiscoverSection1" : [
-    { "icon"  : "person"        , "title" : "Randy Rogers"  },
-    { "icon"  : "bookmark"      , "title" : "News Feed"     },
-    { "icon"  : "message"       , "title" : "Messages"      },
-    { "icon"  : "event"         , "title" : "Events"        },
-    { "icon"  : "person"        , "title" : "Friends"       },
-    { "icon"  : "group"         , "title" : "Groups"        },
-    { "icon"  : "photo"         , "title" : "Photos"        },
-    { "icon"  : "music_note"    , "title" : "Music"         },
-    { "icon"  : "subscriptions" , "title" : "Video"         },
-    { "icon"  : "event"         , "title" : "Calendar"      }
-  ],
-
-  "sidebarDiscoverSection2" : [
-    { "icon"  : "group"   , "title" : "Auto Blogs"          },
-    { "icon"  : "group"   , "title" : "Group Pages"         },
-    { "icon"  : "person"  , "title" : "Paul Singleton"      },
-    { "icon"  : "person"  , "title" : "Angel Collier"       },
-    { "icon"  : "person"  , "title" : "Isabella Rodriguez"  },
-    { "icon"  : "group"   , "title" : "Design Group"        },
-    { "icon"  : "group"   , "title" : "Telescope"           }
-  ],
-
-  "sidebarDiscoverSection3" : [
-    { "icon"  : "business_center" , "title"  : "Advertising"  },
-    { "icon"  : "group"           , "title"  : "Public Page"  },
-    { "icon"  : "group"           , "title"  : "Group"        },
-    { "icon"  : "place"           , "title"  : "Event"        }
-  ],
-
-  "sidebarDiscoverSection4" : [
-    { "icon"   : "settings"    ,  "title"  : "Settings" },
-    { "icon"   : "help_outline",  "title"  : "Help"     }
+    [
+      { "heading" : "Popular Channels"                                  },
+      { "icon"    : "music_note"      , "title" : "Music Channels"      },
+      { "icon"    : "child_care"      , "title" : "Baby Channels"       },
+      { "icon"    : "casino"          , "title" : "Games Channels"      },
+      { "icon"    : "fitness_center"  , "title" : "Fitness Channels"    },
+      { "icon"    : "room_service"    , "title" : "Food Channels"       },
+      { "icon"    : "business_center" , "title" : "Business Channels"   },
+      { "icon"    : "motorcycle"      , "title" : "Motorcycle Channels" },
+      { "icon"    : "mood"            , "title" : "Humor Channels"      },
+      { "button"  : "Show more"                                         }
+    ]
   ],
 
 
-  "sidebarProjectsSection1" : [
-    { "icon"  : "dashboard"       , "title" : "Dashboard"         },
-    { "icon"  : "business_center" , "title" : "Projects"          },
-    { "icon"  : "sort"            , "title" : "Projects Diagram"  },
-    { "icon"  : "group"           , "title" : "Members"           },
-    { "icon"  : "group"           , "title" : "Invoice"           },
-    { "icon"  : "trending_up"     , "title" : "Statistics"        },
-    { "icon"  : "person"          , "title" : "Contacts"          },
-    { "icon"  : "settings"        , "title" : "Settings"          }
+  "sidebarDiscover" : [
+    [
+      { "icon"  : "bookmark"      , "title" : "News Feed"     , "button"  : "10"  },
+      { "icon"  : "message"       , "title" : "Messages"      , "button"  : "5"   },
+      { "icon"  : "event"         , "title" : "Events"        , "button"  : "2"   },
+      { "icon"  : "person"        , "title" : "Friends"       , "button"  : "+3"  },
+      { "icon"  : "group"         , "title" : "Groups"        },
+      { "icon"  : "photo"         , "title" : "Photos"        },
+      { "icon"  : "music_note"    , "title" : "Music"         },
+      { "icon"  : "subscriptions" , "title" : "Video"         },
+      { "icon"  : "event"         , "title" : "Calendar"      }
+    ],
+
+    [
+      { "heading" : "Favorites"                                                     },
+      { "icon"    : "group"   , "title" : "Auto Blogs"          , "button"  : "+3"  },
+      { "icon"    : "group"   , "title" : "Group Pages"         , "button"  : "+12" },
+      { "icon"    : "person"  , "title" : "Paul Singleton"                          },
+      { "icon"    : "person"  , "title" : "Angel Collier"                           },
+      { "icon"    : "person"  , "title" : "Isabella Rodriguez"                      },
+      { "icon"    : "group"   , "title" : "Design Group"        , "button"  : "+1"  },
+      { "icon"    : "group"   , "title" : "Telescope"           , "button"  : "+1"  }
+    ],
+
+    [
+      { "heading" : "Create"                                      },
+      { "icon"    : "business_center" , "title"  : "Advertising"  },
+      { "icon"    : "group"           , "title"  : "Public Page"  },
+      { "icon"    : "group"           , "title"  : "Group"        },
+      { "icon"    : "place"           , "title"  : "Event"        }
+    ],
+
+    [
+      { "icon"   : "settings"    ,  "title"  : "Settings" },
+      { "icon"   : "help_outline",  "title"  : "Help"     }
+    ]
   ],
 
-  "sidebarProjectsSection2" : [
-    { "avatar"  : "images/avatar-02.png"  , "name" : "Branding Company"   },
-    { "avatar"  : "images/avatar-03.png"  , "name" : "Ecommerce Website"  },
-    { "avatar"  : "images/avatar-04.png"  , "name" : "Cosmetic Shop"      },
-    { "avatar"  : "images/avatar-03.png"  , "name" : "Bar Branding"       },
-    { "avatar"  : "images/avatar-02.png"  , "name" : "Auto Ecommerce"     },
-    { "avatar"  : "images/avatar-04.png"  , "name" : "Smartphone Store"   }
-  ],
+  "sidebarProjects" : [
+    [
+      { "icon"  : "dashboard"       , "title" : "Dashboard"         },
+      { "icon"  : "business_center" , "title" : "Projects"          },
+      { "icon"  : "sort"            , "title" : "Projects Diagram"  },
+      { "icon"  : "group"           , "title" : "Members"           },
+      { "icon"  : "group"           , "title" : "Invoice"           },
+      { "icon"  : "trending_up"     , "title" : "Statistics"        },
+      { "icon"  : "person"          , "title" : "Contacts"          },
+      { "icon"  : "settings"        , "title" : "Settings"          }
+    ],
 
-  "sidebarProjectsSection3" : [
-    { "avatar"  : "images/avatar-04.png"  , "name" : "David Ward"       },
-    { "avatar"  : "images/avatar-03.png"  , "name" : "Agnes Price"      },
-    { "avatar"  : "images/avatar-02.png"  , "name" : "Jacob Harrington" },
-    { "avatar"  : "images/avatar-03.png"  , "name" : "Phillip Craig"    }
+    [
+      { "avatar"  : "images/avatar-02.png"  , "name" : "Branding Company"   },
+      { "avatar"  : "images/avatar-03.png"  , "name" : "Ecommerce Website"  },
+      { "avatar"  : "images/avatar-04.png"  , "name" : "Cosmetic Shop"      },
+      { "avatar"  : "images/avatar-03.png"  , "name" : "Bar Branding"       },
+      { "avatar"  : "images/avatar-02.png"  , "name" : "Auto Ecommerce"     },
+      { "avatar"  : "images/avatar-04.png"  , "name" : "Smartphone Store"   }
+    ],
+
+    [
+      { "avatar"  : "images/avatar-04.png"  , "name" : "David Ward"       },
+      { "avatar"  : "images/avatar-03.png"  , "name" : "Agnes Price"      },
+      { "avatar"  : "images/avatar-02.png"  , "name" : "Jacob Harrington" },
+      { "avatar"  : "images/avatar-03.png"  , "name" : "Phillip Craig"    }
+    ]
   ]
 }

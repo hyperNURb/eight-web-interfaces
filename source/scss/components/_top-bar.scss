@@ -2,6 +2,7 @@
 
 .top-bar {
   @include top-bar-container;
+  width: 100%;
   height: $topbar-height; // 90px
   border-bottom: 1px solid $separator-color;
 }

@@ -1,7 +1,8 @@
-<div class="search grid-x align-middle">
-  <i class="material-icons cell shrink">search</i>
-  <input class="search__field cell shrink" type="search" placeholder="Search contacts">
-</div>
+{# {% from "macros/macros.njk" import search %}
+{{ search('Search contacts' )}} #}
+
+{% set searchPlaceholder = "Search contacts" %}
+{% include "components/_search.njk" %}
 
 <div class="contacts">
   {% for messenger in sidebarMessenger %}

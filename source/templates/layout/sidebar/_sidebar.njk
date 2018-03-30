@@ -1,32 +1,32 @@
 <aside class="sidebar cell">
-  <header class="top-bar align-justify">
-    <div class="grid-x align-middle">
-      <i class="material-icons">menu</i>
-      <p>Menu</p>
-    </div>
-    <i class="material-icons close">close</i>
-  </header>
+  {% if title == "Video" %}
+    {% include "layout/sidebar/header/_sidebar-header--video.njk" %}
+  {% elseif title == "Messenger" %}
+    {% include "layout/sidebar/header/_sidebar-header--messenger.njk" %}
+  {% else %}
+    {% include "layout/sidebar/header/_sidebar-header.njk" %}
+  {% endif %}
   <div class="sidebar__content">
     {% if title == "Main Page" %}
-      {% include "layout/sidebar/_sidebar-main.njk" %}
+      {% include "layout/sidebar/content/_sidebar-main.njk" %}
 
     {% elseif title == "Statistics" %}
-      {% include "layout/sidebar/_sidebar-statistics.njk" %}
+      {% include "layout/sidebar/content/_sidebar-statistics.njk" %}
 
     {% elseif title == "Music" %}
-      {% include "layout/sidebar/_sidebar-music.njk" %}
+      {% include "layout/sidebar/content/_sidebar-music.njk" %}
 
     {% elseif title == "Messenger" %}
-      {% include "layout/sidebar/_sidebar-messenger.njk" %}
+      {% include "layout/sidebar/content/_sidebar-messenger.njk" %}
 
     {% elseif title == "Video" %}
-      {% include "layout/sidebar/_sidebar-video.njk" %},
+      {% include "layout/sidebar/content/_sidebar-video.njk" %},
 
     {% elseif title == "Discover" %}
-      {% include "layout/sidebar/_sidebar-discover.njk" %}
+      {% include "layout/sidebar/content/_sidebar-discover.njk" %}
 
     {% elseif title == "Projects" %}
-      {% include "layout/sidebar/_sidebar-projects.njk" %}
+      {% include "layout/sidebar/content/_sidebar-projects.njk" %}
     {% endif %}
   </div>
 </aside>

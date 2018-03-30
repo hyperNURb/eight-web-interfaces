@@ -1,14 +1,20 @@
-{% macro sidebar(one, two) %}
-  <div class="grid-x align-middle align-justify sidebar__item">
-    <i class="material-icons cell shrink">{{ one }}</i>
-    <p class="cell auto">{{ two }}</p>
-  </div>
+{% macro sidebarDefault(heading, icon, title, button) %}
+  {% if heading %}
+    <h3>{{ heading }}</h3>
+  {% elseif not button %}
+    <div class="grid-x align-middle align-justify sidebar__item {{isActive}}">
+      <i class="material-icons cell shrink">{{ icon }}</i>
+      <p class="cell auto">{{ title }}</p>
+    </div>
+  {% else %}
+    <button class="hollow button" type="button" name="button">{{ button }}</button>
+  {% endif %}
 {% endmacro %}
 
-{% macro projects(one, two) %}
-  <div class="grid-x align-middle align-justify sidebar__item">
-    <i class="material-icons cell shrink">{{ one }}</i>
-    <p class="cell auto">{{ two }}</p>
+{% macro projects(icon, title) %}
+  <div class="grid-x align-middle align-justify sidebar__item {{isActive}}">
+    <i class="material-icons cell shrink">{{ icon }}</i>
+    <p class="cell auto">{{ title }}</p>
     <i class="material-icons cell shrink close">keyboard_arrow_down</i>
   </div>
 {% endmacro %}
@@ -20,9 +26,40 @@
      l = 50px ,
     xl = 95px
 #}
-{% macro user(avatarSize, one, two ) %}
-  <div class="grid-x align-middle sidebar__item">
-    <img class="user__avatar--{{ avatarSize }} flex-child-shrink" src="{{ one }}" alt="">
-    <p class="user__name">{{ two }}</p>
-  </div>
+{% macro user(heading, avatarSize, avatarPath, name, button) %}
+  {% if heading %}
+    <h3>{{ heading }}</h3>
+  {% elseif not button %}
+    <div class="grid-x align-middle sidebar__item">
+      <img class="user__avatar--{{ avatarSize }} cell shrink" src="{{ avatarPath }}" alt="">
+      <p class="user__name cell auto">{{ name }}</p>
+    </div>
+  {% else %}
+    <button class="hollow button" type="button" name="button">{{ button }}</button>
+  {% endif %}
+{% endmacro %}
+
+
+{% macro discover(heading, icon, title, button) %}
+  {% if heading %}
+    <h3>{{ heading }}</h3>
+  {% endif %}
+    <div class="grid-x align-middle sidebar__item">
+      <i class="material-icons cell shrink">{{ icon }}</i>
+      <p class="user__name cell auto">{{ title }}</p>
+      {% if button %}
+        <button class="hollow button notification" type="button">{{ button }}</button>
+      {% endif %}
+    </div>
+{% endmacro %}
+
+{% macro search(placeholder) %}
+<div class="search grid-x align-middle">
+  <i class="material-icons cell shrink">search</i>
+  <input class="search__field cell" type="search" placeholder="{{placeholder}}">
+</div>
+{% endmacro %}
+
+{% macro icon(classModifier='',icon) %}
+  <i class="material-icons cell shrink {{classModifier}}">{{icon}}</i>
 {% endmacro %}

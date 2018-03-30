@@ -1,0 +1,16 @@
+{% from "macros/macros.njk" import discover %}
+
+
+<div class="grid-x align-middle align-justify sidebar__section no-border">
+  <i class="material-icons cell shrink">person</i>
+  <p class="cell auto">{{ usernameDefault }}</p>
+  <i class="material-icons cell shrink close">mode_edit</i>
+</div>
+
+{% for i in range (0, sidebarDiscover | length) %}
+  <div class="sidebar__section">
+    {% for item in sidebarDiscover[i] %}
+      {{ discover(item.heading, item.icon, item.title, item.button) }}
+    {% endfor %}
+  </div>
+{% endfor %}

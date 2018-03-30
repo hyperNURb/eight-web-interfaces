@@ -1,0 +1,44 @@
+{% from "macros/macros.njk" import projects, user %}
+
+
+{# {% for i in range (0, sidebarMain | length) %}
+  <div class="sidebar__section">
+    {% for item in sidebarMain[i] %}
+        {{ sidebarDefault(item.heading, item.icon, item.title, item.button )}}
+    {% endfor %}
+  </div>
+{% endfor %} #}
+
+
+{# {% for i in range (0, sidebarProjects | length) %} #}
+  {% for item in sidebarProjects[0] %}
+    <ul class="sidebar__section vertical menu accordion-menu" data-accordion-menu>
+      <li>
+        <a href="#">
+            {{ projects(item.icon, item.title) }}
+        </a>
+        {% if loop.index0 == 1 %}
+          {% for item in sidebarProjects[1] %}
+              <ul class="menu vertical nested">
+                <li>
+                  <a href="#">
+                    {{ user(heading,"xs", item.avatar, item.name, button) }}
+                  </a>
+                </li>
+              </ul>
+          {% endfor %}
+        {% elseif loop.index0 == 3 %}
+          {% for item in sidebarProjects[1] %}
+              <ul class="menu vertical nested">
+                <li>
+                  <a href="#">
+                    {{ user(heading,"xs", item.avatar, item.name, button) }}
+                  </a>
+                </li>
+              </ul>
+          {% endfor %}
+        {% endif %}
+      </li>
+    </ul>
+  {% endfor%}
+{# {% endfor %} #}

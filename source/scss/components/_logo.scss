@@ -1,0 +1,16 @@
+$logo-size: rem-calc(40);
+
+.logo {
+  @include circle($logo-size);
+  border: rem-calc(8) solid $primary-color;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: ($topbar-height - $logo-size) / 2;
+
+  &--video {
+    border-color: $alert-color;
+    left: 10%;
+  }
+}

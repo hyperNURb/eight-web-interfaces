@@ -1,6 +1,13 @@
 .sidebar {
   min-width: rem-calc(60);
   max-width: rem-calc(270);
+}
+
+.sidebar__menu {
+  font-size: $global-font-size;
+}
+
+.sidebar__content {
   border-right: 1px solid $separator-color;
 }
 
@@ -19,6 +26,17 @@
 
 .sidebar__item:not(:last-child) {
   margin-bottom: $global-margin / 2;
+}
+
+.sidebar__item:hover,
+.sidebar__item.is-active {
+
+  p {
+    color: $primary-color;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
 }
 .dashboard {
 

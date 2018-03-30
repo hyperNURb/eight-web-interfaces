@@ -1,0 +1,11 @@
+{% from "macros/macros.njk" import sidebarDefault %}
+{#  important!
+    arguments order: heading, icon, title, button #}
+
+{% for i in range (0, sidebarMain | length) %}
+  <div class="sidebar__section">
+    {% for item in sidebarMain[i] %}
+        {{ sidebarDefault(item.heading, item.icon, item.title, item.button )}}
+    {% endfor %}
+  </div>
+{% endfor %}
